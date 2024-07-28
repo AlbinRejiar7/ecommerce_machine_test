@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "331831037187",
+    "project_id": "ecommercemachinetest",
+    "storage_bucket": "ecommercemachinetest.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:331831037187:android:0b0ae1b6008882b512ed36",
+        "android_client_info": {
+          "package_name": "com.example.ecommerce_machine_test"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlLhJzeOdYzSW2CW02m7BHbe1u1wWtFq0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
