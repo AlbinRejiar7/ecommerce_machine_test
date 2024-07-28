@@ -53,16 +53,16 @@ class FirebaseServices {
       String message = "";
 
       switch (e.code) {
-        case 'user-not-found':
+        case 'auth/user-not-found':
           message = 'No user found for that email.';
           break;
-        case 'wrong-password':
+        case 'auth/wrong-password':
           message = 'Wrong password provided.';
           break;
-        case 'invalid-email':
-          message = 'Invalid email address.';
+        case 'invalid-credential':
+          message = 'Invalid email address or password.';
           break;
-        case 'user-disabled':
+        case 'auth/user-disabled':
           message = 'User account has been disabled.';
           break;
         default:

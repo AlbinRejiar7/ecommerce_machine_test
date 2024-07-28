@@ -116,7 +116,7 @@ class AuthScreen extends StatelessWidget {
               kHeight(6.h),
               Consumer<AuthProviderCtr>(builder: (context, auth, _) {
                 return CustomTextWidget(
-                  buttonText: authProvider.isSignInPage ? "Login" : "Signin",
+                  buttonText: authProvider.isSignInPage ? "Login" : "Signup",
                   firstText: authProvider.isSignInPage
                       ? "Already have an account?"
                       : "New here?",

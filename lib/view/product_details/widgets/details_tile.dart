@@ -34,16 +34,6 @@ class DetailsTile extends StatelessWidget {
             originalPrice: product.price ?? 0,
             discountPercentage: product.discountPercentage,
           ),
-          kHeight(5.h),
-          Text(
-            "${product.shippingInformation}",
-            style: Theme.of(context).textTheme.bodySmall,
-          ),
-          kHeight(5.h),
-          Text(
-            "${product.warrantyInformation}",
-            style: Theme.of(context).textTheme.bodySmall,
-          ),
         ],
       ),
     );
